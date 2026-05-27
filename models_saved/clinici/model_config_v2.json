@@ -1,0 +1,29 @@
+{
+    "seq_input_size": 12,
+    "static_input_size": 6,
+    "hidden_size": 64,
+    "final_threshold": 0.55,
+    "colonne_lstm": [
+        "hemoglobin",
+        "wbc",
+        "platelets",
+        "creatinine",
+        "glucose",
+        "bmi",
+        "hemoglobin_mask",
+        "wbc_mask",
+        "platelets_mask",
+        "creatinine_mask",
+        "glucose_mask",
+        "bmi_mask"
+    ],
+    "colonne_mlp": [
+        "is_bpco",
+        "is_cancer_hist",
+        "avg_spo2",
+        "avg_ldh",
+        "avg_albumin",
+        "anchor_age"
+    ],
+    "model_type": "LSTM+MLP_Hybrid"
+}

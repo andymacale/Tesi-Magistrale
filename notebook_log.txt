@@ -1,3 +1,0 @@
-docker: open $MEDICAL_HOME/web_app/.env: no such file or directory
-
-Run 'docker run --help' for more information

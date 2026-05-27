@@ -25,18 +25,7 @@ raw_data/
 *.zip
 *.tar.gz
 
-# ==============================================================================
-# MODELLI E PESI (Gestione Selettiva)
-# ==============================================================================
-# 1. Di base, ignoriamo i file di modelli pesanti ovunque...
-*.pth
-*.joblib
-*.pkl
-*.h5
 
-# 2. ...MA facciamo un'eccezione per la tua cartella ufficiale di produzione!
-!models_saved/
-!models_saved/*
 
 # ==============================================================================
 # WEB APP & LOGS
