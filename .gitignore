@@ -39,3 +39,7 @@ kaggle.json
 # Documentazione pesante
 *.pdf
 *.docx
+
+!models_saved/
+
+!models_saved/**
